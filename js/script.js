@@ -27,6 +27,14 @@ $(document).ready(function(){
 			$(this).attr('data','off');
 		}
 	});
+	//fix menu
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 400){
+			$('.all-menu').addClass('fix');
+		}else{
+			$('.all-menu').removeClass('fix');
+		}
+	});
 	//slider menu
 	$('.head').click(function(){
 		if($(this).attr('data') == 'close'){
