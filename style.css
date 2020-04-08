@@ -36,6 +36,13 @@ body{
 	border-radius:0 0 8px 8px;
 	bottom:17px;
 }
+#light{
+	float:left;
+	font-size:25px;
+}
+.body{
+	background:rgba(0,0,0,0.3);
+}
 .menu li{
 	list-style:none;
 	float:left;
