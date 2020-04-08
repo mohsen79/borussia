@@ -35,13 +35,23 @@ body{
 	background:linear-gradient(to left,black,lightgray);
 	border-radius:0 0 8px 8px;
 	bottom:17px;
+	z-index: 1;
 }
 #light{
+	position:relative;
 	float:left;
 	font-size:25px;
 }
 .body{
+	width:100%;
+	height:100%;
 	background:rgba(0,0,0,0.3);
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	z-index:0;
 }
 .menu li{
 	list-style:none;
@@ -86,4 +96,34 @@ body{
 }
 body:hover .menu li{
 	transition:all ease 0.5s;
+}
+.slide-menu{
+	max-width:1000px;
+	min-height:250px;
+	max-height:550px;
+	background:yellow;
+	position: relative;
+	margin:50px 180px;
+	border-radius:3px;
+	z-index:1;
+}
+.head{
+	width:100%;
+	height:50px;
+	background:black;
+	color:white;
+	border-radius:3px;
+}
+.head p{
+	padding:1.5%;
+	cursor:pointer;
+}
+.br{
+	width:100%;
+	height:2px;
+	background:white;	
+}
+.text{
+	padding:2%;
+	display:none;
 }
