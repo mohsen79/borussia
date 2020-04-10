@@ -109,7 +109,7 @@ body:hover .menu li{
 	max-height:550px;
 	background:yellow;
 	position: relative;
-	margin:50px 180px;
+	margin:100px 180px;
 	border-radius:3px;
 	z-index:1;
 }
@@ -132,4 +132,42 @@ body:hover .menu li{
 .text{
 	padding:2%;
 	display:none;
+}
+.fad-menu{
+	max-width:80%;
+	min-height:225px;
+	background:black;
+	margin:50px 150px;
+	border-radius:5px;
+	position:relative;
+	z-index:2;
+}
+.fad-menu ul{
+	max-width:1042px;
+	height:50px;
+	background:yellow;
+	border-radius:5px 5px 0 0;
+}
+.fad-menu .p{
+	position: relative;
+	left:-20px;
+}
+.fad-menu li{
+	list-style: none;
+	float:left;
+	padding:1.4% 3%;
+	color:black;
+}
+.fad-menu li:hover{
+	background:white;
+	cursor:pointer;
+}
+.fad-text{
+	color:white;
+	float:left;
+	display: none;
+	padding:1%;
+}
+.select{
+	background:white;
 }

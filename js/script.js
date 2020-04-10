@@ -47,4 +47,14 @@ $(document).ready(function(){
 			$(this).attr('data','close');
 		}
 	});
+	//fad menu
+	$('.fad-text:first').fadeToggle();
+	$('.fad-head li:first').addClass('select');
+	$('.fad-head li').click(function(){
+		$('.fad-head li').removeClass('select');
+		$(this).addClass('select');
+		$('.fad-text').hide();
+		var text = $(this).attr('href');
+		$(text).fadeToggle();
+	});
 });
