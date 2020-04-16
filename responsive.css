@@ -1,22 +1,82 @@
+@media(max-width:1200px){
+	.modal{
+		margin:0 450px;
+		margin-top:-300px;
+	}
+	.question{
+		margin:50px 320px;
+	}
+	#but{
+		left:200px;
+	}
+}
+@media(max-width:1000px){
+	.modal{
+		margin:0 350px;
+		margin-top:-300px;
+	}
+	.question{
+		margin:50px 220px;
+	}
+	#but{
+		left:150px;
+	}
+}
 @media(max-width:800px){
 	.menu li{
 		padding-top:3%;
 	}
+	.respon-menu{
+	}
 	.fad-menu{
-		height:230px;
+		height:250px;
 		width:70%;
-		margin:30px 110px;
+		margin:0px 110px;
 	}
 	.fad-menu li{
 		font-size:15px;
 		padding:2%;
 	}
-	.fad-text{
-		font-size:14px;
+	.p2{
+		margin-top:50px;
+		font-size:10px;
+	}
+	.slider{
+		top:-250px;
+	}
+	.modal{
+		margin:0 250px;
+		margin-top:-600px;
+	}
+	.question{
+		margin:50px 120px;
+		top:-250px;
+	}
+	#but{
+		margin:0 200px;
+		left:100px;
+		top:-250px;
 	}
 }
 
 @media(max-width:650px){
+	.menu li{
+		font-size:15px;
+	}
+	#light{
+		float:right;
+		color:yellow;
+		font-size:18px;
+	}
+	.menu ul{
+		display:none;
+	}
+	#slide{
+		display:none;
+	}
+	#bars{
+		display:block;
+	}
 	.slide-menu{
 		width:400px;
 		margin:100px 80px;
@@ -33,15 +93,48 @@
 		font-size:12px;
 		padding:6% 1%;
 	}
+	.p2{
+		padding:15% 40%;
+	}
+	#next{
+		width:55px;
+		height:30px;
+		font-size:10px;
+		top:-50px;
+	}
+	#prev{
+		width:55px;
+		height:30px;
+		font-size:10px;
+		top:-50px;
+	}
+	.slider{
+		top:-300px;
+	}
+	.modal{
+		margin:0 150px;
+		margin-top:-600px;
+	}
+	.question{
+		top:-300px;
+	}
+	#but{
+		margin:0 100px;
+		left:100px;
+		top:-300px;
+	}
 }
 
 @media(max-width:500px){
 	.menu li{
+		font-size:15px;
 		padding-top:5%;
+	}
+	#slide{
+		font-size:18px;
 	}
 	#light{
 		font-size:18px;
-		margin-left:-15px;
 		position:absolute;
 	}
 	.slide-menu{
@@ -59,6 +152,58 @@
 	.fad-menu{
 		height:230px;
 		width:50%;
-		margin:30px 110px;
+		margin:0px 110px;
+	}
+	.text-slide{
+		width:68%;
+		height:150px;
+		margin:50px 0px;
+		left:50px;
+	}
+	.text-slide p{
+		font-size:12px;
+	}
+	.p2{
+		padding:8% 40%;
+	}
+	#next{
+		width:55px;
+		height:30px;
+		font-size:10px;
+		top:0px;
+	}
+	#prev{
+		width:55px;
+		height:30px;
+		font-size:10px;
+		top:0px;
+	}
+	.pic ul{
+		margin:100px 30px;
+	}
+	.in-pic{
+		height:150px;
+	}
+	.pic img{
+		height:150px;
+	}
+	.slider{
+		top:-700px;
+	}
+	.modal{
+		margin:0 100px;
+		margin-top:-1000px;
+	}
+	.question{
+		margin:50px 70px;
+		top:-700px;
+	}
+	#but{
+		font-size:10px;
+		width:70px;
+		height:30px;
+		margin:0px;
+		left:200px;
+		top:-700px;
 	}
 {	
